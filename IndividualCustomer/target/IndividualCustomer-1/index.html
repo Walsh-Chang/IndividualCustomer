@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Customer Page</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    </head>
+    <body>
+	<h2>Enter Properties for Person</h2>
+	<form method="post" action="api/customerService">
+		<label>Name</label><br /> 
+                <input type="text" name="name"><br />
+		<label>Number</label><br /> 
+                <input type="text" name="number"><br />
+                <input type="submit" value="Save DB">
+	</form>
+        <br /> 
+<!--        <h2>Enter Json for Object "Person" here:</h2>
+	<h3>Example: { "name": "John", "surname": "Doe", "address": "77 E
+		4th St", "city": "New York" }</h3>
+	<form method="post" action="rest/jsonb/tojava">
+		Json
+                <br /> 
+                <input type="text" name="json" size="120" /> 
+                <br> 
+                <br />
+		<input type="submit" value="Create Java">
+	</form>-->
+</body>
+
+</html>
